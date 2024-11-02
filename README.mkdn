@@ -9,11 +9,11 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LOS trees to build TWRP, use a command like this:
 
-    repo init -u git@github.com:Ctapchuk/platform_manifest_twrp_los.git -b twrp-11
+    repo init -u https://github.com/bbor74/platform_manifest_twrp_los.git -b twrp-11
 
 To initialize a shallow clone, which will save even more space, use a command like this:
     
-    repo init --depth=1 -u git@github.com:Ctapchuk/platform_manifest_twrp_los.git -b twrp-11
+    repo init --depth=1 -u https://github.com/bbor74/platform_manifest_twrp_los.git -b twrp-11
 
 Then to sync up:
 
